@@ -1,0 +1,28 @@
+2022-07-19 14:49:37.583137
+Name of function:hello
+Arguments:
+
+2022-07-19 14:49:41.100637
+Name of function:hello
+Arguments:
+
+2022-07-19 14:49:42.534655
+Name of function:hello
+Arguments:
+
+2022-07-19 14:49:43.683469
+Name of function:hello
+Arguments:
+
+2022-07-19 14:49:44.582110
+Name of function:hello
+Arguments:
+
+2022-07-19 15:04:51.191033
+Name of function:bye_bye
+Arguments:
+
+2022-07-19 15:05:43.851435
+Name of function:bye_bye
+Arguments:Gustav
+
