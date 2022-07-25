@@ -12,5 +12,5 @@ def bye_bye(name):
 
 
 if __name__ == '__main__':
-    # hello()
+    hello()
     bye_bye('Gustav')

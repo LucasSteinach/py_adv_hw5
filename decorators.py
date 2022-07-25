@@ -8,8 +8,7 @@ def dec_logger_rel(old_func):
         with open('log.txt', 'a') as file:
             file.write(str(datetime.datetime.now()) + '\nName of function:' + str(old_func.__name__) + '\nArguments:' +
                        str(*args, **kwargs) + '\n\n')
-            old_func(*args, **kwargs)
-        return
+        return old_func(*args, **kwargs)
     return new_func
 
 # creates log in given directory
@@ -22,7 +21,6 @@ def dec_logger_abs(path):
                 file.write(
                     str(datetime.datetime.now()) + '\nName of function:' + str(old_func.__name__) + '\nArguments:' +
                     str(*args, **kwargs) + '\n\n')
-                old_func(*args, **kwargs)
-            return
+            return old_func(*args, **kwargs)
         return new_func
     return decorator
